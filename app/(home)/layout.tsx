@@ -4,9 +4,9 @@ import { Navbar } from "./components";
 
 const HomeLayout = ({ children }: ChildProps) => {
   return (
-    <div>
+    <div className="h-full">
       <Navbar />
-      {children}
+      <main className="h-full pt-40">{children}</main>
     </div>
   );
 };
